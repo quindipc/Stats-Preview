@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <title>Stats preview card component</title>
+
+  <!--Link to CSS-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--BOOTSTRAP-->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!--Adding Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--Main container for the card, photo and information-->
+  <div class="container" id="main">
+    <div>
+      <!-- Card will go here-->
+      <div class="row" id="row-info">
+        <!-- Text information go here-->
+        <div class="col-xl" id="title">
+          <h1 class="topText">Get <span class="insights">insights</span> that help your business grow.</h1>
+          <p class="information" id="subtitle-info">Discover the benefits of data analytics and make better decisions
+            regarding revenue,
+            customer experience, and overall efficiency.</p>
+          <!--Statistics go here-->
+          <div class="container-fluid" id="stats">
+            <!--Container fluid is full width-container-->
+            <div class="row">
+              <div class="col order-first" id="companies">
+                <!--Responsive order class-->
+                <h3 class="companiesNumber">10k+</h3>
+                <p class="bottomText">COMPANIES</p>
+              </div>
+              <div class="col" id="templates">
+                <!--Responsive order class-->
+                <h3 class="templatesNumber">314</h3>
+                <p class="bottomText">TEMPLATES</p>
+              </div>
+              <div class="col order-last" id="queries">
+                <!--Responsive order class-->
+                <h3 class="queriesNumber">12M+</h3>
+                <p class="bottomText">QUERIES</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Image on card desktop-->
+        <div class="image">
+          <div class="col-xl-6 p-0" id="image-container">
+            <img class="img-fluid" src="images/image-header-desktop.jpg">
+          </div>
+        </div>
+        <svg width="1000" height="1100">
+          <rect class="rect-overlay" width="541" height="447" rx="15"/>
+        </svg>
+        
+        <!--Image on card mobile
+        <div class="overlay">
+          <div class="col-xl-6 p-0" id="image-container">
+            <img class="img-fluid" src="images/image-header-mobile.jpg">
+          </div>
+        </div> 
+        -->
+
+      </div>
+      <!--Attribution-->
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/quindipc">Chelsea Quindipan</a>.
+      </div>
+</body>
+
+</html>
