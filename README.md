@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/stats-preview-P-0u0qEwN)
-- Live Site URL: [Add live site URL here](https://quindipc.github.io/Stats-Preview/)
+- Solution URL: [https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/stats-preview-P-0u0qEwN](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/stats-preview-P-0u0qEwN)
+- Live Site URL: [https://quindipc.github.io/Stats-Preview/](https://quindipc.github.io/Stats-Preview/)
 
 ## My process
 
